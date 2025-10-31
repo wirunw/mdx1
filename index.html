@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Journal | เภสัชกรวิรุณ เวชศิริ - Digital Healthcare Leadership</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="wirun-logo.png" alt="เภสัชกรวิรุณ เวชศิริ" class="logo">
+                <span class="brand-text">Learning Journey</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">หน้าหลัก</a></li>
+                <li><a href="#sessions">บันทึกการเรียนรู้</a></li>
+                <li><a href="#about">เกี่ยวกับผม</a></li>
+                <li><a href="#contact" class="btn-contact">ติดต่อ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-badge">เภสัชกรวิรุณ เวชศิริ | ผู้เรียนรุ่นที่ 1</div>
+            <h1 class="hero-title">Learning Journal<br>การเรียนรู้ดิจิทัลทางการแพทย์</h1>
+            <p class="hero-subtitle">บันทึกการเรียนรู้จากหลักสูตรประกาศนียบัตรผู้บริหารดิจิทัลทางการแพทย์<br>เพื่อนำความรู้ไปใช้ให้เกิดประโยชน์สูงสุด</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">ครั้งการเรียน</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100</div>
+                    <div class="stat-label">ผู้เรียนทั้งหมด</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">เดือน</div>
+                </div>
+            </div>
+            <a href="#sessions" class="btn-primary">เริ่มเรียนรู้</a>
+        </div>
+    </section>
+
+    <!-- Progress Tracker -->
+    <section class="progress-section">
+        <div class="container">
+            <h2 class="section-title">ความคืบหน้าหลักสูตร</h2>
+            <div class="progress-timeline">
+                <div class="timeline-item completed">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-number">ครั้งที่ 1</span>
+                        <span class="timeline-status">เสร็จสิ้น</span>
+                    </div>
+                </div>
+                <div class="timeline-item active">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-number">ครั้งที่ 2</span>
+                        <span class="timeline-status">กำลังเรียน</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-number">ครั้งที่ 3-12</span>
+                        <span class="timeline-status">เร็วๆ นี้</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessions Grid -->
+    <section id="sessions" class="sessions-section">
+        <div class="container">
+            <h2 class="section-title">บันทึกการเรียนรู้ของผม</h2>
+            <p class="section-subtitle">สิ่งที่ผมได้เรียนรู้และบันทึกไว้จากแต่ละครั้งการเรียน</p>
+            
+            <div class="sessions-grid">
+                <!-- Session 2 - Active -->
+                <div class="session-card featured">
+                    <div class="session-badge">กำลังเรียน</div>
+                    <div class="session-header">
+                        <span class="session-number">02</span>
+                        <span class="session-date">1 พ.ย. 2568</span>
+                    </div>
+                    <h3 class="session-title">การเรียนการสอนครั้งที่ 2</h3>
+                    <div class="session-topics">
+                        <div class="topic-tag">Medical AI Ecosystem</div>
+                        <div class="topic-tag">Customer Innovation</div>
+                        <div class="topic-tag">Healthcare Financing</div>
+                    </div>
+                    <div class="session-speakers">
+                        <div class="speaker-info">
+                            <span class="speaker-icon">👨‍⚕️</span>
+                            <span>Dr. Jorge Cardoso + 3 วิทยากร</span>
+                        </div>
+                    </div>
+                    <a href="session2.html" class="btn-session">ดูเนื้อหาเต็ม →</a>
+                </div>
+
+                <!-- Session 1 - Completed -->
+                <div class="session-card completed">
+                    <div class="session-badge completed">เสร็จสิ้น</div>
+                    <div class="session-header">
+                        <span class="session-number">01</span>
+                        <span class="session-date">16 ต.ค. 2568</span>
+                    </div>
+                    <h3 class="session-title">การเรียนการสอนครั้งที่ 1</h3>
+                    <div class="session-topics">
+                        <div class="topic-tag">Healthcare Landscape</div>
+                        <div class="topic-tag">Digital Foundation</div>
+                        <div class="topic-tag">Value-Based Care</div>
+                    </div>
+                    <div class="session-speakers">
+                        <div class="speaker-info">
+                            <span class="speaker-icon">👨‍⚕️</span>
+                            <span>พลอากาศเอก นพ.อิทธพร คณะเจริญ + 3 วิทยากร</span>
+                        </div>
+                    </div>
+                    <a href="session1.html" class="btn-session">ดูเนื้อหาเต็ม →</a>
+                </div>
+
+                <!-- Upcoming Sessions -->
+                <div class="session-card upcoming">
+                    <div class="session-badge upcoming">เร็วๆ นี้</div>
+                    <div class="session-header">
+                        <span class="session-number">03</span>
+                        <span class="session-date">Coming Soon</span>
+                    </div>
+                    <h3 class="session-title">การเรียนการสอนครั้งที่ 3</h3>
+                    <div class="session-topics">
+                        <div class="topic-tag">TBA</div>
+                    </div>
+                    <a href="#" class="btn-session disabled">เนื้อหาเร็วๆ นี้</a>
+                </div>
+
+                <!-- Template for more sessions -->
+                <div class="session-card upcoming">
+                    <div class="session-badge upcoming">เร็วๆ นี้</div>
+                    <div class="session-header">
+                        <span class="session-number">04-12</span>
+                        <span class="session-date">Coming Soon</span>
+                    </div>
+                    <h3 class="session-title">การเรียนครั้งอื่นๆ</h3>
+                    <div class="session-topics">
+                        <div class="topic-tag">เนื้อหากำลังจัดเตรียม</div>
+                    </div>
+                    <a href="#" class="btn-session disabled">เร็วๆ นี้</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">สิ่งที่คุณจะพบใน Journal นี้</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>สรุปเนื้อหา</h3>
+                    <p>บันทึกสรุปสิ่งที่เรียนรู้ในแต่ละครั้งอย่างเข้าใจง่าย</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💡</div>
+                    <h3>Insights ส่วนตัว</h3>
+                    <p>ข้อคิดและมุมมองจากการนำความรู้ไปปรับใช้</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📑</div>
+                    <h3>ทรัพยากรเสริม</h3>
+                    <p>เอกสารและแหล่งความรู้ที่น่าสนใจจากการเรียน</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>การนำไปใช้</h3>
+                    <p>แนวทางการประยุกต์ใช้ความรู้ในบริบทจริง</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">เกี่ยวกับผม</h2>
+                <div class="about-intro">
+                    <p class="about-text">
+                        ผมชื่อ <strong>เภสัชกรวิรุณ เวชศิริ (หมี)</strong> เป็นหนึ่งในผู้เรียนหลักสูตรประกาศนียบัตรผู้บริหารดิจิทัลทางการแพทย์ รุ่นที่ 1
+                        ซึ่งจัดโดยสถาบันมหิตลาธิเบศร แพทยสภา ผมสร้าง website นี้ขึ้นมาเพื่อเป็นที่บันทึกสิ่งที่ได้เรียนรู้จากหลักสูตร
+                        เพื่อให้สามารถนำความรู้เหล่านี้ไปใช้ให้เกิดประโยชน์สูงสุดในการพัฒนาระบบสุขภาพดิจิทัลต่อไป
+                    </p>
+                    <p class="about-text">
+                        ผมมีประสบการณ์ในวงการเภสัชกรรมมากกว่า 21 ปี ในปัจจุบันดำรงตำแหน่ง <strong>กรรมการผู้จัดการบริษัท Pharm Connection (Thailand)</strong>
+                        และมีบทบาทสำคัญในการผลักดันการให้บริการเภสัชกรรมทางไกล (Telepharmacy) และ Digital Therapeutics ในประเทศไทย
+                    </p>
+                </div>
+
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🎓</div>
+                        <h3>การศึกษา</h3>
+                        <ul>
+                            <li><strong>FCPA</strong> - Fellow of the College of Pharmacy Administration, สภาเภสัชกรรม (2564)</li>
+                            <li><strong>MBA</strong> - คณะพาณิชยศาสตร์และการบัญชี, มหาวิทยาลัยธรรมศาสตร์</li>
+                            <li><strong>เภสัชศาสตรบัณฑิต</strong> - คณะเภสัชศาสตร์, มหาวิทยาลัยมหิดล</li>
+                            <li><strong>ปริญญาเอก</strong> - Doctor of Philosophy in Information Technology (กำลังศึกษา)</li>
+                        </ul>
+                    </div>
+
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🏆</div>
+                        <h3>รางวัลและตำแหน่ง</h3>
+                        <ul>
+                            <li>เภสัชกรการตลาดดีเด่น ปี 2564</li>
+                            <li>กรรมการอำนวยการ เภสัชกรรมสมาคมแห่งประเทศไทย ในพระบรมราชูปถัมภ์</li>
+                            <li>กรรมการสมาคมเภสัชกรรมการตลาด (ประเทศไทย)</li>
+                            <li>สมาชิกก่อตั้งวิทยาลัยการบริหารเภสัชกิจแห่งประเทศไทย สภาเภสัชกรรม</li>
+                        </ul>
+                    </div>
+
+                    <div class="highlight-card">
+                        <div class="highlight-icon">💼</div>
+                        <h3>ความเชี่ยวชาญ</h3>
+                        <ul>
+                            <li>Telehealth & Digital Health Solutions</li>
+                            <li>Healthcare Business Marketing</li>
+                            <li>Healthcare Law & Regulations</li>
+                            <li>Pharmacy Logistics & Supply Chain</li>
+                            <li>Innovation in Healthcare</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="about-vision">
+                    <h3>วิสัยทัศน์</h3>
+                    <p class="vision-quote">"Empowering Individuals to Take Control of Their Health Through Intelligent, Accessible Digital Solutions"</p>
+                    <p>ผมเชื่อว่าเทคโนโลยีดิจิทัลจะช่วยเสริมพลังให้แก่ประชาชนในการดูแลสุขภาพของตนเอง และช่วยยกระดับการให้บริการสุขภาพของประเทศไทยให้ทัดเทียมระดับสากล</p>
+                </div>
+
+                <div class="about-course-info">
+                    <h3>หลักสูตรที่กำลังศึกษา</h3>
+                    <div class="course-box">
+                        <h4>หลักสูตรผู้บริหารดิจิทัลการแพทย์รุ่นที่ ๑ (ปดพ.๑)</h4>
+                        <p>Certificate in Digital Health Executives</p>
+                        <div class="course-details">
+                            <div class="course-detail-item">
+                                <strong>จัดโดย:</strong> สถาบันมหิตลาธิเบศร แพทยสภา
+                            </div>
+                            <div class="course-detail-item">
+                                <strong>ระยะเวลา:</strong> 16 สัปดาห์ (132 ชั่วโมง)
+                            </div>
+                            <div class="course-detail-item">
+                                <strong>รูปแบบ:</strong> 12 วันในห้องเรียน + กิจกรรมนอกสถานที่
+                            </div>
+                        </div>
+                        <a href="#course-curriculum" class="btn-outline-dark">ดูหลักสูตรทั้งหมด ↓</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Curriculum Section -->
+    <section id="course-curriculum" class="curriculum-section">
+        <div class="container">
+            <h2 class="section-title">รายละเอียดหลักสูตร</h2>
+            <p class="section-subtitle">หลักสูตรผู้บริหารดิจิทัลการแพทย์รุ่นที่ ๑ (ปดพ.๑)</p>
+
+            <div class="curriculum-intro">
+                <div class="curriculum-card">
+                    <h3>🎯 วัตถุประสงค์หลักสูตร</h3>
+                    <ul>
+                        <li><strong>ความรู้ (Knowledge):</strong> เสริมสร้างความเข้าใจเกี่ยวกับการเปลี่ยนแปลงทางดิจิทัลในระบบสุขภาพ</li>
+                        <li><strong>เจตคติ (Attitude):</strong> ส่งเสริมพฤติกรรมความเป็นผู้นำในยุคดิจิทัล</li>
+                        <li><strong>ทักษะ (Skill):</strong> พัฒนาความสามารถในการคิดวิเคราะห์และแก้ไขปัญหาด้วยเทคโนโลยี</li>
+                    </ul>
+                </div>
+
+                <div class="curriculum-card">
+                    <h3>📊 โครงสร้างหลักสูตร</h3>
+                    <div class="course-structure">
+                        <div class="structure-item">
+                            <div class="structure-number">72 ชม.</div>
+                            <div class="structure-label">การเรียนในห้องเรียน<br>(12 วัน)</div>
+                        </div>
+                        <div class="structure-item">
+                            <div class="structure-number">60 ชม.</div>
+                            <div class="structure-label">การเรียนนอกห้องเรียน<br>(10 วัน)</div>
+                        </div>
+                        <div class="structure-item">
+                            <div class="structure-number">132 ชม.</div>
+                            <div class="structure-label">รวมทั้งหมด<br>(16 สัปดาห์)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="curriculum-topics">
+                <h3>📚 หัวข้อการเรียนการสอน (12 ครั้ง)</h3>
+                <div class="topics-grid">
+                    <div class="topic-item">
+                        <span class="topic-num">01</span>
+                        <span class="topic-name">Introduction to Digital Transformation</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">02</span>
+                        <span class="topic-name">Healthcare Technology Landscape</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">03</span>
+                        <span class="topic-name">Data Management and Big Data</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">04</span>
+                        <span class="topic-name">Innovation and Design Thinking</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">05</span>
+                        <span class="topic-name">Digital Transformation Strategy and Leadership</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">06</span>
+                        <span class="topic-name">Artificial Intelligence in Healthcare</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">07</span>
+                        <span class="topic-name">Telemedicine and Remote Care</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">08</span>
+                        <span class="topic-name">Interoperability and Health Information Exchanges</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">09</span>
+                        <span class="topic-name">Regulatory Compliance and Digital Health Law</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">10</span>
+                        <span class="topic-name">Digital Marketing and Patient Engagement</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">11</span>
+                        <span class="topic-name">Cybersecurity in Healthcare</span>
+                    </div>
+                    <div class="topic-item">
+                        <span class="topic-num">12</span>
+                        <span class="topic-name">Demo Day</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="curriculum-activities">
+                <h3>🎓 กิจกรรมพิเศษ</h3>
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <div class="activity-icon">🏕️</div>
+                        <h4>กิจกรรมปฐมนิเทศ</h4>
+                        <p>2 วัน 1 คืน | 12 ชั่วโมง</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon">🚌</div>
+                        <h4>One Day Trip</h4>
+                        <p>3 ครั้ง | 18 ชั่วโมง</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon">✈️</div>
+                        <h4>ศึกษาดูงานต่างจังหวัด</h4>
+                        <p>3 วัน 2 คืน | 18 ชั่วโมง</p>
+                    </div>
+                    <div class="activity-card">
+                        <div class="activity-icon">🎉</div>
+                        <h4>กิจกรรมปัจฉิมนิเทศ</h4>
+                        <p>2 วัน 1 คืน | 12 ชั่วโมง</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="curriculum-requirements">
+                <h3>✅ เงื่อนไขการจบการศึกษา</h3>
+                <div class="requirements-list">
+                    <div class="requirement-item">
+                        <span class="req-icon">📅</span>
+                        <div>
+                            <strong>เวลาเรียน:</strong> ต้องมีเวลาศึกษาไม่น้อยกว่า 75% ของเวลาเรียนทั้งหมด
+                        </div>
+                    </div>
+                    <div class="requirement-item">
+                        <span class="req-icon">📝</span>
+                        <div>
+                            <strong>Capstone Project:</strong> ร่วมจัดทำและนำเสนอผลงานให้ผ่านเกณฑ์
+                        </div>
+                    </div>
+                    <div class="requirement-item">
+                        <span class="req-icon">🤝</span>
+                        <div>
+                            <strong>การมีส่วนร่วม:</strong> เข้าร่วมกิจกรรมตามกรอบที่หลักสูตรกำหนด
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="curriculum-organizer">
+                <h3>🏛️ เกี่ยวกับหลักสูตร</h3>
+                <p>
+                    หลักสูตรจัดโดย <strong>สถาบันมหิตลาธิเบศร แพทยสภา</strong> ซึ่งจัดตั้งขึ้นเมื่อวันที่ 10 สิงหาคม 2565
+                    เพื่อส่งเสริมและสนับสนุนให้วงการแพทย์ของไทยมีความมั่นคงและยั่งยืน ผ่านการฝึกอบรมและการเสริมสร้าง
+                    องค์ความรู้นอกวิชาการแพทย์ (Non-technical Skills) เช่น ภาวะผู้นำ การสื่อสาร การคิดเชิงระบบ
+                    ความเข้าใจด้านนโยบายสาธารณสุข และทักษะด้านดิจิทัล
+                </p>
+                <p>
+                    ได้รับการสนับสนุนด้านการดำเนินงานจาก <strong>มูลนิธิธรรมาภิบาลทางการแพทย์</strong> ซึ่งเป็นองค์กร
+                    ไม่แสวงหากำไรที่มีบทบาทในการส่งเสริมคุณธรรมและธรรมาภิบาลในวิชาชีพแพทย์อย่างต่อเนื่อง
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">สนใจแลกเปลี่ยนความคิดเห็น?</h2>
+                <p class="cta-text">ยินดีรับฟังและแบ่งปันประสบการณ์การเรียนรู้ร่วมกัน</p>
+                <div class="cta-buttons">
+                    <a href="mailto:wirun.wetsiri@gmail.com" class="btn-primary">ส่งอีเมลถึงผม</a>
+                    <a href="tel:+66818228552" class="btn-secondary">โทร: 081-822-8552</a>
+                    <a href="#sessions" class="btn-secondary">ดูบันทึกการเรียนรู้</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>เกี่ยวกับ</h4>
+                    <p>Learning Journal ของเภสัชกรวิรุณ เวชศิริ<br>ผู้เรียนหลักสูตรผู้บริหารดิจิทัลทางการแพทย์ รุ่นที่ 1</p>
+                </div>
+                <div class="footer-section">
+                    <h4>หลักสูตร</h4>
+                    <p>ประกาศนียบัตรผู้บริหารดิจิทัลทางการแพทย์<br>ปคพ.๑ | แพทยสภา | กระทรวงสาธารณสุข</p>
+                </div>
+                <div class="footer-section">
+                    <h4>ติดต่อ</h4>
+                    <p>เภสัชกรวิรุณ เวชศิริ (หมี)<br>
+                    📧 wirun.wetsiri@gmail.com<br>
+                    📱 081-822-8552</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2568 เภสัชกรวิรุณ เวชศิริ - Learning Journal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

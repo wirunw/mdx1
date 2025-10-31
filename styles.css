@@ -133,28 +133,35 @@ body {
 .mobile-menu-toggle {
     display: none;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 5px;
     background: none;
     border: none;
     cursor: pointer;
     padding: 0.5rem;
+    width: 40px;
+    height: 40px;
+    position: relative;
 }
 
 .mobile-menu-toggle span {
     display: block;
-    width: 25px;
+    width: 28px;
     height: 3px;
     background: var(--primary-blue);
     transition: all 0.3s ease;
     border-radius: 3px;
+    position: relative;
 }
 
 .mobile-menu-toggle.active span:nth-child(1) {
-    transform: rotate(45deg) translate(8px, 8px);
+    transform: rotate(45deg) translate(7px, 7px);
 }
 
 .mobile-menu-toggle.active span:nth-child(2) {
     opacity: 0;
+    transform: translateX(20px);
 }
 
 .mobile-menu-toggle.active span:nth-child(3) {
@@ -1008,11 +1015,12 @@ body {
 
     .mobile-menu-toggle {
         display: flex;
+        z-index: 1001;
     }
 
     .nav-menu {
         position: absolute;
-        top: 100%;
+        top: calc(100% + 1rem);
         left: 0;
         right: 0;
         background: rgba(255, 255, 255, 0.98);
@@ -1020,23 +1028,28 @@ body {
         flex-direction: column;
         gap: 0;
         padding: 0;
+        margin: 0;
         max-height: 0;
+        opacity: 0;
         overflow: hidden;
-        transition: max-height 0.3s ease, padding 0.3s ease;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        border-top: 1px solid rgba(0, 102, 204, 0.1);
+        transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        border-radius: 0 0 12px 12px;
+        z-index: 1000;
     }
 
     .nav-menu.active {
         max-height: 400px;
+        opacity: 1;
         padding: 1rem 0;
     }
 
     .nav-menu li {
         width: 100%;
         text-align: center;
-        padding: 0.75rem 2rem;
-        border-bottom: 1px solid rgba(0, 102, 204, 0.05);
+        padding: 0;
+        border-bottom: 1px solid rgba(0, 102, 204, 0.08);
+        list-style: none;
     }
 
     .nav-menu li:last-child {
@@ -1046,11 +1059,14 @@ body {
     .nav-menu a {
         display: block;
         width: 100%;
+        padding: 0.875rem 2rem;
+        font-size: 1rem;
     }
 
     .btn-contact {
         display: inline-block;
         width: auto;
+        margin: 0 auto;
     }
 
     .sessions-grid {
